@@ -113,6 +113,7 @@
           <h1 class="entry-title">Pricing</h1>
         </header>
         <div class="entry-content">
+          <p><a href="img/Scan_0163.pdf">Download pricesheet</a>
           <h2>Cottages</h2>
           <ul>
             <li><strong>Cottage</strong></li>
@@ -122,63 +123,61 @@
           </ul>
           <ul>
             <li><strong>Sunday – Thursday</strong></li>
-            <li>$70/day</li>
-            <li>$55/day</li>
-            <li>$45/day</li>
+            <li>$75/day</li>
+            <li>$60/day</li>
+            <li>$50/day</li>
           </ul>
           <ul>
             <li><strong>Friday, Saturday &amp; Holidays</strong></li>
-            <li>$90/day</li>
-            <li>$75/day</li>
-            <li>$45/day</li>
+            <li>$95/day</li>
+            <li>$80/day</li>
+            <li>$50/day</li>
           </ul>
           <ul>
             <li><strong>Week</strong></li>
-            <li>$450</li>
-            <li>$350</li>
-            <li>$275</li>
+            <li>$500</li>
+            <li>$400</li>
+            <li>$300</li>
           </ul>
           <p class="salmon-text">All reservations require a $50 nonrefundable deposit<br> Additional persons $5/day<br> pets $5/day<br> Two day minimum</p>
           <hr>
           <h2>Trailer Sites</h2>
           <ul>
-            <li><strong>Channel</strong></li>
-            <li><strong>Others w/sewer</strong></li>
+            <li><strong>Channel w/sewer</strong></li>
+            <li><strong>Seasonal w/sewer</strong></li>
           </ul>
           <ul>
-            <li>$1700</li>
-            <li>$1450</li>
+            <li>$1750</li>
+            <li>$1500</li>
           </ul>
           <h2>Camping Sites</h2>
           <ul>
-            <li><strong>Seasonal</strong></li>
             <li><strong>Daily w/ electricity</strong></li>
             <li><strong>Daily w/o electricity</strong></li>
           </ul>
           <ul>
-            <li>$1750</li>
             <li>$30</li>
             <li>$25</li>
           </ul>
           <hr>
           <h2>Boats, docks, etc.</h2>
           <ul>
-            <li>Boat</li>
-            <li>Boat &amp; Motor</li>
-            <li>Kayak</li>
-            <li>Boat Launching</li>
-            <li>Ramp Use</li>
+            <li><strong>Boat</strong></li>
+            <li><strong>Boat &amp; Motor</strong></li>
+            <li><strong>Kayak</strong></li>
+            <li><strong>Boat Launching</strong></li>
+            <li><strong>Ramp Use</strong></li>
           </ul>
           <ul>
-            <li>$17.50/day</li>
-            <li>$50/day</li>
+            <li>$20/day</li>
+            <li>$60/day</li>
             <li>$10 first hour</li>
             <li>$5</li>
             <li>$2.50</li>
           </ul>
           <ul>
-            <li>$6/hour</li>
-            <li>$17.50/hour</li>
+            <li>$8/hour</li>
+            <li>$20/hour</li>
             <li>$5 each additional hour</li>
             <li>&nbsp;</li>
             <li>&nbsp;</li>
@@ -190,7 +189,7 @@
             <li><strong>Wide</strong></li>
           </ul>
           <ul>
-            <li>$7.50/day</li>
+            <li>$8/day</li>
             <li>$12.50/day</li>
           </ul>
           <ul>
@@ -230,56 +229,16 @@
   <footer id="footer" class="clearfix">
     <div class="center">
       <p class="colophon">© 2016 Steinke Resort. All Rights Reserved.</p>
-      <p id="developer-link">Design by <em><a href="http://ryanglaze.com/" title="Visual Art and Design by Ryan Glaze" rel="developer designer" target="_blank">Ryan Glaze</a></em></p>
     </div>
     <!-- .center -->
-
   </footer>
   <!--#footer -->
-
-  <script>
-    $(document).ready(function() {
-      $('#navbar').onePageNav({
-        currentClass: 'current',
-        changeHash: false,
-        scrollSpeed: 750,
-        scrollOffset: 30,
-        scrollThreshold: 0.5,
-        filter: '',
-        easing: 'swing',
-        begin: function() {
-          //Hack so you can click other menu items after the initial click
-          $('body').append('<div id="device-dummy" style="height: 1px;"></div>');
-        },
-        end: function() {
-          $('#device-dummy').remove();
-        }
-      });
-    });
-  </script>
-  <script>
-    var _gaq = _gaq || []; 
-    _gaq.push(['_setAccount', 'UA-32477355-1']); 
-    _gaq.push(['_trackPageview']);
-
-     
-    (function() {  
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;  
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';  
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s); 
-    })();
-  </script>
-
-
-  <div id="device-dummy" style="height: 1px;"></div>
-  <div id="device-dummy" style="height: 1px;"></div>
-  <div id="device-dummy" style="height: 1px;"></div>
-  <div id="device-dummy" style="height: 1px;"></div>
-  <div id="device-dummy" style="height: 1px;"></div>
-  <div id="device-dummy" style="height: 1px;"></div>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-32477355-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
